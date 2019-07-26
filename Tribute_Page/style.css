@@ -1,0 +1,43 @@
+#main {
+  background-color: #eee;
+  min-height: 800px;
+  text-align: center;
+  font-size: large;
+  text-align: left;
+  margin: 1px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#title {
+  text-align: center;
+}
+
+#details {
+  text-align: center;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  text-align: center;
+}
+#img-div {
+  text-align: center;
+  background-color: white;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.text-primary {
+  position: relative;
+  left: 35px;
+}

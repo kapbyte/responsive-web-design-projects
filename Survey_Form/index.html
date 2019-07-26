@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+
+    <!-- Bootstrap, Font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form.</h1>
+    <div id="container">
+      <h3><p id="description"><i>Student Technology Form.</i></p></h3>
+      <hr id="line"/>
+        <form id="survey-form">
+          <div id="name-div">
+            <div class="details">
+              <label id="name-label" for="name"><b> Name: </b></label>
+            </div>
+            <div class="details">
+              <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+            </div>
+          </div>
+
+          <div id="email-div" class="margings">
+            <div class="details">
+              <label id="email-label" for="email"><b>Email: </b></label>
+            </div>
+            <div class="details">
+              <input type="email" class="inputs-Elements" name="email" id="email" placeholder="Enter your email" required>
+            </div>
+          </div>
+
+          <div id="gender" class="row">
+            <div id="gender-div">
+              <label id=""><b>Gender:</b> </label>
+            </div>
+            <div class="gender-button">
+              <div id="label">
+                <label for="female">
+                  <input id="female" type="radio" name="gender" value="female">Female
+                </label>
+              </div>
+              <div id="label">
+                <label for="male">
+                  <input id="male" type="radio" name="gender" value="male">Male
+                </label>
+              </div>
+              <div id="label">
+                <label for="other">
+                  <input id="other" type="radio" name="gender" value="other">Other
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div id="age-div">
+            <div id="label" class="details">
+              <label id="number-label" for="age"><b> Age: </b></label>
+            </div>
+            <div id="age-box" class="details margings">
+              <input id="number" type="number" required name="age" placeholder="Age" min="1" max="125" >
+            </div>
+          </div>
+          <hr id="line"/>
+
+          <div id="position-div">
+            <div id="labels" class="details margings">
+              <label for="currentPos"><b>Your current role?: </b></label>
+            </div>
+
+            <div id="rightTab" class="details">
+              <select id="dropdown" name="currentPos" class="dropdown">
+                <option disabled value>Select an option</option>
+                <option  value="student">Student</option>
+                <option value="job">Part Time Job</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="preferNo">Prefer not to say</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="computer-use">
+            <fieldset>
+                <legend><b>I use a computer to: </b><i><u>select all that apply</u></i></legend>
+                <input id="newbie" type="checkbox" name="levels" value="newbie">
+                <label for="newbie">Play games</label><br>
+                <input id="intermediate" type="checkbox" name="levels" value="intermediate">
+                <label for="intermediate">Access class materials</label><br>
+                <input id="intermediate" type="checkbox" name="levels" value="intermediate">
+                <label for="intermediate">Create computer programs</label><br>
+                <input id="intermediate" type="checkbox" name="levels" value="intermediate">
+                <label for="intermediate">Watch movies</label><br>
+                <input id="intermediate" type="checkbox" name="levels" value="intermediate">
+                <label for="intermediate">Create websites</label><br>
+                <input id="intermediate" type="checkbox" name="levels" value="intermediate">
+                <label for="intermediate">Take notes</label><br>
+                <input id="intermediate" type="checkbox" name="levels" value="intermediate">
+                <label for="intermediate">Learn to code</label><br>
+                <input id="intermediate" type="checkbox" name="levels" value="intermediate">
+                <label for="intermediate">Others</label><br>
+            </fieldset>
+          </div>
+          <hr id="line"/>
+
+          <div id="suggestions">
+            <div id="label">
+              <label for="comments"><b>Any Comments ? </b></label>
+            </div>
+            <div id="comments-box">
+              <textarea id="comments" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+          </div>
+
+          <button id="submit" type="submit" class="btn btn-primary">Submit<i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+        </form>
+    </div>
+  </body>
+</html>
