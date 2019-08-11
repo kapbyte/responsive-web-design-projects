@@ -20,4 +20,4 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 
 
 - [x] **See my completed project on**
-[CodePen](https://codepen.io/kelechichinaka/pen/rojRbO)
+[CodePen](https://codepen.io/kelechichinaka/full/rojRbO)
